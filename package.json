@@ -33,6 +33,8 @@
     "url": "https://github.com/Kagami/mpv.js/issues"
   },
   "dependencies": {
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-vite": "^7.5.0",
     "prebuild-install": "^5.0.0",
     "prop-types": "^15.6.2"
   },
@@ -41,12 +43,12 @@
   },
   "devDependencies": {
     "babel-standalone": "^6.26.0",
-    "electron": "^1.8.8",
+    "electron": "^32.1.2",
     "electron-debug": "^2.0.0",
-    "eslint": "^5.2.0",
-    "eslint-plugin-react": "^7.10.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-react": "^7.37.1",
     "prebuild": "^10.0.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
